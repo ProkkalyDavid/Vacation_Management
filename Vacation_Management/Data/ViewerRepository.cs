@@ -3,7 +3,7 @@ using Vacation_Management.Model;
 
 namespace Vacation_Management.Data
 {
-    public class ViewerRepository
+    public class ViewerRepository : IViewerRepository
     {
         List<Viewer> viewers;
         public ViewerRepository()

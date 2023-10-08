@@ -2,7 +2,7 @@
 
 namespace Vacation_Management.Data
 {
-    public class AdministartorRepository
+    public class AdministartorRepository : IAdministartorRepository
     {
         List<Administrator> administrators;
 

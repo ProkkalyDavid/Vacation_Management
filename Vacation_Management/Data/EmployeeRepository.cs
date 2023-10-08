@@ -2,7 +2,7 @@
 
 namespace Vacation_Management.Data
 {
-    public class EmployeeRepository
+    public class EmployeeRepository : IEmployeeRepository
     {
         List<Employee> employees;
 
