@@ -20,13 +20,15 @@ namespace Vacation_Management.Controllers
         [HttpGet]
         public IActionResult CalendarView()
         {
+            //todo
             return View();
         }
 
-        [HttpGet]
+        [HttpPost]
         public IActionResult CreateLeaveRequest()
         {
-            return View();
+            //todo
+            return RedirectToAction("Index");
         }
     }
 }
